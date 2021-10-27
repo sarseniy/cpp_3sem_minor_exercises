@@ -35,7 +35,7 @@ public:
 
 int main()
 {
-	int num_of_series = 10000000;
+	int num_of_series = 100000;
 	TimeMeasure t;
 
 	std::ofstream outf("res.txt");
@@ -51,8 +51,8 @@ int main()
 		t.stop();
 		double time_gone = t.elapsed();
 		double res = time_gone / static_cast<double>(num_of_series);
-		std::cout << i << ' ' << res << '\n';
-		outf << i << ' ' << res << '\n';
+		std::cout << std::fixed << i << ' ' << res << '\n';
+		outf << std::fixed << i << ' ' << res << '\n';
 	}
 
 	return 0;
