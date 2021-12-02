@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "deque_and_vector_assymtotics", "deque_and_vector_assymtotics\deque_and_vector_assymtotics.vcxproj", "{D5B352FE-8C36-49F9-8B3D-9393EC7250F6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tmp", "tmp\tmp.vcxproj", "{8729C47E-9B64-49A1-B260-4A412CF199B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{D5B352FE-8C36-49F9-8B3D-9393EC7250F6}.Release|x64.Build.0 = Release|x64
 		{D5B352FE-8C36-49F9-8B3D-9393EC7250F6}.Release|x86.ActiveCfg = Release|Win32
 		{D5B352FE-8C36-49F9-8B3D-9393EC7250F6}.Release|x86.Build.0 = Release|Win32
+		{8729C47E-9B64-49A1-B260-4A412CF199B9}.Debug|x64.ActiveCfg = Debug|x64
+		{8729C47E-9B64-49A1-B260-4A412CF199B9}.Debug|x64.Build.0 = Debug|x64
+		{8729C47E-9B64-49A1-B260-4A412CF199B9}.Debug|x86.ActiveCfg = Debug|Win32
+		{8729C47E-9B64-49A1-B260-4A412CF199B9}.Debug|x86.Build.0 = Debug|Win32
+		{8729C47E-9B64-49A1-B260-4A412CF199B9}.Release|x64.ActiveCfg = Release|x64
+		{8729C47E-9B64-49A1-B260-4A412CF199B9}.Release|x64.Build.0 = Release|x64
+		{8729C47E-9B64-49A1-B260-4A412CF199B9}.Release|x86.ActiveCfg = Release|Win32
+		{8729C47E-9B64-49A1-B260-4A412CF199B9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
